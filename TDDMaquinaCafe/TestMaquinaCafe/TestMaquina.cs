@@ -63,7 +63,7 @@ namespace TDDMaquinaCafe.TestMaquinaCafe
             Assert.That(maquinaCafe.getVasoDeCafe(tamañoVaso, cantidadCafe, cantidadAzucar),
                         Is.EqualTo("Cafe tamaño " + tamaño + " con " + cantidadCafe + " ml y "
                     + cantidadAzucar + " de azucar. Quedan " + vasoMediano.getCantidadVasos() + " vasos " + tamaño + "s disponibles"
-                        ));
+                       ));
         }
 
     }
